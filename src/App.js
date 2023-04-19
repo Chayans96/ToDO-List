@@ -1,6 +1,4 @@
 import "./App.css";
-import Navbar from "./navbar";
-import Add_task from "./add_task";
 import TodoInput from "./co/todo";
 import { useState } from "react";
 import List from "./co/todoList";
