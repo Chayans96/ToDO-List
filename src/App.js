@@ -15,10 +15,11 @@ function App() {
   };
   return (
     <div className="App">
+      <h1 className="heading-todo">Todo</h1>
       <div className="main-container">
         <div className="center-container">
           <TodoInput addList={addToList} />
-          <h1>Todo</h1>
+
           {todoList.map((listItem, i) => {
             return (
               <List
